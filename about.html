@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160192862-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160192862-1');
+</script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="style">
+    <link rel="icon" type="image/png" href="images/logo.png" alt="logo for Kaavya's portfolio"/>
+    <title>Kaavya's Portfolio</title>
+</head>    
+<body id="page3">
+    <a class = "skip" href="#content">Skip to Main Content</a>
+    <header>
+            <img src = "images/logo.png" alt="logo" id="logo">
+            <nav>
+                <ul class="nav-bar">
+                    <li class = "title"><a href="index">Home</a></li>
+                    <li class = "title"><a href="resume">Resume</a></li>
+                    <li class = "title"><a class = "current" href="about">About</a></li>
+                    <li class = "title"><a href="more">More</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="content" tabindex=0>
+            <div class="main-container">
+            <div class="parallax-container">
+                <h1>
+                    ABOUT ME.
+                </h1>
+            </div>
+            <div class="content-container">
+                <div class="parallax-content">
+                  <p>
+                      I’m a Master's student at the University of Michigan School of Information specializing in Human Computer Interaction and UX Design. I graduated from the University of Washington, Seattle with a degree in Psychology and a minor in Informatics. <br><br><br>
+                      I aim to design engaging products that create emotional connections and leave a lasting  and positive impact. I love to design in dynamic environments that encourage me to not only practice design, but learn and adapt new design skills and principles. When I’m not designing digital products, you can find me reading cookbooks,  drinking coffee, or eating the free samples at Costco.
+                  </p>
+                 </div>
+              </div>
+        </div>
+
+        <div id="contact">
+            <div class="heading">
+                <h2>Want to get in touch?</h2>
+            <p>Drop me a line!</p>
+            </div>
+            <div class ="form">
+                <form action="https://formspree.io/ksam6484@yahoo.com" method = "POST">
+                    <label for ="first">First Name</label><br>
+                    <input type="text" id ="first" name="fname" placeholder="First name"/> <br>
+                    <label for ="last">Last Name</label><br>
+                    <input type="text" id ="last" name="lname" placeholder="Last name"/> <br>
+                    <label for ="email">Email Address</label><br>
+                    <input type="text" id="email" name ="email" placeholder="Email address"/> <br>
+                    <label for="message"> Message</label>
+                    <textarea id="message" name="message" placeholder="Type your message here" style='height:170px'></textarea><br>
+                    <input type = "submit" value="Submit">
+                    <input type="hidden" name="_next" value="https://mysite.com/thanks.html"/>
+                </form>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="images/image1.JPG" class="img1" alt="Two girls, one wearing a graduation robe."/>
+            <img src="images/image2.JPG" class="img2" alt="A girl on a tire swing"/>
+            <img src="images/image3.JPG" class="img3" alt="A dog, looking to the camera"/>
+            <img src="images/image4.JPG" class="img4" alt="Two women, one standing behind the other"/>
+            <img src="images/image5.JPG" class="img5" alt="Two women hugging for a photo"/>
+            <img src="images/image6.JPG" class="img6" alt="Four women at college graduation"/>
+            <img src="images/image7.JPG" class="img7" alt="Two women, one wearing a UMich hat"/>
+            <img src="images/image8.JPG" class="img8" alt="Two girls at a football game "/>
+            <img src="images/image9.JPG" class="img8" alt="Family of four photo with two parents, two daughters, and a dog"/>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Kaavya Samu &copy;
+            <script>
+                var date = new Date();
+                var n = date.getFullYear();
+                document.write(n)
+            </script><br/>
+            <a href="mailto:ksamu@umich.edu" class="hyperlink" aria-label="first link">ksamu@umich.edu
+            </p>
+            <div class="icons">
+                <a href="https://www.twitter.com/kaavyuhs"><img src="images/twitter.png" alt="Twitter" class="twitter" aria-label="Twitter logo"></a>
+                <a href="https://www.instagram.com/kaavsamu"><img src="images/instagram.png" alt="Instagram" class="instagram" aria-label="Instagram logo"></a>
+                <a href="https://www.linkedin.com/in/kaavya=samu"><img src="images/linkedin.png" alt="LinkedIn" class="linkedin" aria-label="Linkedin Logo"></a>
+            </div>
+        </footer>
+</body>
+
+</html>

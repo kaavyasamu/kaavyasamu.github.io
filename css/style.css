@@ -169,6 +169,9 @@ div {
 .front > #image5{
     height: 358px;
 }
+.front > #image1{
+    max-width: 300px;
+}
 
 .parallax1 {
     position: relative;

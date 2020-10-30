@@ -103,8 +103,6 @@ li:hover ~ li p {
   animation: wave-animation 0.3s infinite;
 }
 
-/* below is just for demo styling */
-
 div {
   display: flex;
   height: 100vh;
@@ -173,18 +171,7 @@ div {
     max-width: 306px;
 }
 
-.parallax1 {
-    position: relative;
-    background-image: url('../images/profile.jpg');
-    background-color: #e9e9ea;
-    background-position: 60% 200px !important;
-    min-height: 70vh; 
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 
   .paragraph {
     margin: 3em 0;
@@ -207,6 +194,15 @@ div {
     font-weight: 400;
     line-height: 55px;
     padding: .05em .2em 0 0;
+  }
+
+  .parallax1 {
+    background-image: url('../images/profile.jpg');
+    background-color: #e9e9ea;
+    min-height: 70vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .contact-ad .email-ad{
@@ -248,79 +244,50 @@ div {
       padding-top: 20px;
   }
   .pulse-parallax {
-    position: relative;
     background-image: url('../images/pulse/banner-color.jpg');
     background-color: #A96FDC;
-    background-position: 25% 90px !important;
     min-height: 70vh; 
-    width: auto;
-    position: relative;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .votesmart-parallax {
-    position: relative;
     background-image: url('../images/votesmart/banner-color.jpg');
     background-color: #7492c1;
-    background-position: 25% 90px !important;
     min-height: 70vh; 
-    width: auto;
-    position: relative;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .coupon-parallax {
-    position: relative;
     background-image: url('../images/coupon-filter/banner-color.jpg');
     background-color: #0468b4;
-    background-position: 25% 90px !important;
     min-height: 70vh; 
-    width: auto;
-    position: relative;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .restore-parallax {
-    position: relative;
     background-image: url('../images/restore/banner-color.jpg');
     background-color: #81c784;
-    background-position: 25% 90px !important;
     min-height: 70vh; 
-    width: auto;
-    position: relative;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .list-parallax {
-    position: relative;
     background-image: url('../images/shopping-list/banner-color.jpg');
     background-color:#7694E5;
-    background-position: 25% 90px !important;
     min-height: 70vh; 
-    width: auto;
-    position: relative;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .wristrecord-parallax {
-    position: relative;
     background-image: url('../images/wristrecord/banner-color.jpg');
     background-color:#00897b;
-    background-position: 25% 90px !important;
     min-height: 70vh; 
-    width: auto;
-    position: relative;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -402,7 +369,7 @@ div {
     height: auto;
 }
 .pulse-design{
-    max-width: 2%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
@@ -562,6 +529,18 @@ a {
         justify-content: space-evenly;
 
     }
+    .parallax1 {
+        position: relative;
+        background-image: url('../images/profile.jpg');
+        background-color: #e9e9ea;
+        background-position: 60% 200px !important;
+        min-height: 70vh; 
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     .pulse-parallax{
         background-position: 55% 70px !important;
     }

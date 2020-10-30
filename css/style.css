@@ -171,8 +171,6 @@ div {
     max-width: 306px;
 }
 
-
-
   .paragraph {
     margin: 3em 0;
     display: flex;
@@ -298,9 +296,9 @@ div {
 }
 .pulse-intro{
     display: grid;
-    /* height: 580px; */
+    height: 500px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 150px;
+    grid-template-rows: 300px 150px;
     line-height: 1.8;
     padding-left: 50px;
     padding-right: 50px;
@@ -314,9 +312,12 @@ div {
 
 .overview{
     grid-row: 1/span 1;
-    margin: 10px;
-    
+    margin: 10px;   
 }
+
+/* .discover{
+    padding-top: 245px;
+} */
 .timeline{
     grid-column: 2/span 1;
     margin: 10px;

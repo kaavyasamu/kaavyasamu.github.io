@@ -421,6 +421,13 @@ div {
     margin-bottom: 40px;    /* line-height:1.6em; */
 }
 
+.vici-divider{
+    border-bottom: 3px solid #F69889;
+    width:120px;
+    margin-top: -10px;
+    margin-bottom: 40px;    /* line-height:1.6em; */
+}
+
 .back-info{
     line-height: 1.8;
     padding-left: 10px;
@@ -641,7 +648,7 @@ a {
       .votesmart-parallax {
         position: relative;
         background-image: url('../images/votesmart/banner-color.jpg');
-        background-color: #4d98cf;
+        background-color: #7492c1;
         background-position: 55% 70px !important;
         min-height: 70vh; 
         width: auto;
@@ -678,7 +685,19 @@ a {
         background-repeat: no-repeat;
         background-size: cover;
       }
-
+      .vici-parallax {
+        position: relative;
+        background-image: url('../images/vici/banner-color.jpg');
+        background-color:#f5f0ec;
+        background-position: 55% 70px !important;
+        min-height: 70vh; 
+        width: auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     .timeline{
         margin-left: 50px;
     }

@@ -242,7 +242,7 @@ div {
       padding-left: 10px;
       padding-top: 20px;
   }
-  .pulse-parallax {
+  /* .pulse-parallax {
     background-image: url('../images/pulse/banner-color.jpg');
     background-color: #A96FDC;
     min-height: 70vh; 
@@ -275,7 +275,7 @@ div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
 
 .pulse-main{
     font-family: 'Fira Sans', sans-serif;

@@ -526,9 +526,6 @@ a {
         background-repeat: no-repeat;
         background-size: cover;
       }
-    .pulse-parallax{
-        background-position: 55% 70px !important;
-    }
 
     .timeline{
         margin-left: 25px;
@@ -568,17 +565,7 @@ a {
         margin-left: auto;
         margin-right: auto;
     }
-    .votesmart-parallax{
-        background-position: 55% 70px !important;
-    }
-    .coupon-parallax{
-        background-position: 55% 70px !important;
-    }
-
-    .list-parallax{
-        background-position: 55% 70px !important;
-    }
-
+    
     .pulse-roadmap{
         grid-template-columns: 1fr 1fr;
     }

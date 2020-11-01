@@ -266,14 +266,7 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .restore-parallax {
-    background-image: url('../images/restore/banner-color.jpg');
-    background-color: #81c784;
-    min-height: 70vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   .list-parallax {
     background-image: url('../images/shopping-list/banner-color.jpg');
     background-color:#7694E5;
@@ -282,14 +275,7 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .wristrecord-parallax {
-    background-image: url('../images/wristrecord/banner-color.jpg');
-    background-color:#00897b;
-    min-height: 70vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 .pulse-main{
     font-family: 'Fira Sans', sans-serif;
 
@@ -430,18 +416,6 @@ div {
 }
 .krogerlist-divider{
     border-bottom: 3px solid #7594E6;
-    width:120px;
-    margin-top: -10px;
-    margin-bottom: 40px;    /* line-height:1.6em; */
-}
-.restore-divider{
-    border-bottom: 3px solid #81c784;
-    width:120px;
-    margin-top: -10px;
-    margin-bottom: 40px;    /* line-height:1.6em; */
-}
-.wrist-divider{
-    border-bottom: 3px solid #00897b;
     width:120px;
     margin-top: -10px;
     margin-bottom: 40px;    /* line-height:1.6em; */
@@ -592,15 +566,11 @@ a {
     .coupon-parallax{
         background-position: 55% 70px !important;
     }
-    .restore-parallax{
-        background-position: 55% 70px !important;
-    }
+
     .list-parallax{
         background-position: 55% 70px !important;
     }
-    .wristrecord-parallax{
-        background-position: 55% 70px !important;
-    }
+
     .pulse-roadmap{
         grid-template-columns: 1fr 1fr;
     }
@@ -651,27 +621,64 @@ a {
         width: 1070px;
         transition: transform 1s;
     }
+    
     .parallax1 {
         background-position: 70% 160px !important;
     }
-    .pulse-parallax{
+    .pulse-parallax {
+        position: relative;
+        background-image: url('../images/pulse/banner-color.jpg');
+        background-color: #A96FDC;
         background-position: 80% 70px !important;
-    }
-    .votesmart-parallax{
+        min-height: 70vh; 
+        width: auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .votesmart-parallax {
+        position: relative;
+        background-image: url('../images/votesmart/banner-color.jpg');
+        background-color: #4d98cf;
         background-position: 55% 70px !important;
-    }
-    .coupon-parallax{
+        min-height: 70vh; 
+        width: auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .coupon-parallax {
+        position: relative;
+        background-image: url('../images/coupon-filter/banner-color.jpg');
+        background-color: #0468b4;
         background-position: 55% 70px !important;
-    }
-    .restore-parallax{
+        min-height: 70vh; 
+        width: auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .list-parallax {
+        position: relative;
+        background-image: url('../images/shopping-list/banner-color.jpg');
+        background-color:#7694E5;
         background-position: 55% 70px !important;
-    }
-    .list-parallax{
-        background-position: 55% 70px !important;
-    }
-    .wristrecord-parallax{
-        background-position: 55% 70px !important;
-    }
+        min-height: 70vh; 
+        width: auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
     .timeline{
         margin-left: 50px;
     }

@@ -12,6 +12,7 @@ header img{
     width: 60px;
     float: left;
 }
+
 .nav-bar{
     display: flex;
     flex-direction: column;
@@ -22,12 +23,31 @@ header img{
     text-decoration: none;
     color: #757575;
     font-size: 16px;
+    text-transform: lowercase;
+
 }
 
 .nav-bar .current{
-    color: #24847B;
+    color: #c9634c;
     text-transform: uppercase;
     font-weight: bolder;
+}
+
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 25px;
+    color: #c9634c;
+    text-transform: lowercase;
+
+}
+
+.brand {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 1.4em;
 }
 
 a.skip {
@@ -50,6 +70,7 @@ a.skip:focus, a.skip:active{
     padding-left: 1px;
     padding-right: 1px;
 }
+
 #work .intro{
     font-family: 'Fira Sans', sans-serif;
     padding-left: 15px;
@@ -66,16 +87,16 @@ a.skip:focus, a.skip:active{
     font-size: 40px;
 }
 .emph{
-    color: #24847B;
+    color: #c9634c;
 }
 #work .gradient{
-    background: linear-gradient(260deg, rgba(13,83,75,1) 15%, rgba(40,167,154,1) 60%, rgba(57,126,126,1) 100%);
+    background: linear-gradient(260deg, rgba(201,99,76,1) 8%, rgba(226,150,133,1) 67%, rgba(187,93,72,1) 85%);
     background: -webkul {
-  display: inline-grid;
-  grid-auto-flow: row;
-  grid-gap: 24px;
-  justify-items: center;
-  margin: auto;
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
 }
 
 @media (min-width: 500px) {
@@ -205,7 +226,7 @@ div {
   }
   
   .contact-ad .email-ad{
-    color:#24847B;
+    color:#c9634c;
     font-weight: bolder;
   }
   
@@ -489,11 +510,12 @@ a {
     box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
   }
   
-  a:hover {
-      border-bottom: 2px solid #24847B;
-      display: inline-block;
-      line-height: 0.85;
+  a:not(.name):hover {
+    border-bottom: 2px solid #c9634c;
+    display: inline-block;
+    line-height: 0.85;
   }
+
 @media screen and (min-width: 850px){
     .nav-bar{
         flex-direction: row;

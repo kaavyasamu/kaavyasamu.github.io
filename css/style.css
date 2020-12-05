@@ -4,7 +4,7 @@ html{
   }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 header img{
@@ -192,16 +192,17 @@ div {
 .front > #image1{
     max-width: 306px;
 }
-
+.text{
+    margin-left: 100px;
+    margin-top: 50px;
+}
   .paragraph {
-    margin: 3em 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
   }
   .paragraph p {
-    width: 60%;
+    width: 80%;
     font-size: 1.05em;
     line-height: 1.45em;
     letter-spacing: .1em;
@@ -215,16 +216,12 @@ div {
     line-height: 55px;
     padding: .05em .2em 0 0;
   }
-
-  .parallax1 {
-    background-image: url('../images/profile.jpg');
-    background-color: #e9e9ea;
-    min-height: 70vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .page{
+      display: grid;
+      grid-template-columns: 400px 1fr;
+      grid-template-rows: 1fr;
+      padding-top: 25px;
   }
-  
   .contact-ad .email-ad{
     color:#c9634c;
     font-weight: bolder;
@@ -235,6 +232,14 @@ div {
     margin: 0 auto;
     background-color: white;
     text-align: center;
+  }
+  .profile> img{
+      width: 300px;
+  }
+  .profile{
+      grid-column: 1/span 1;
+      margin-top: 50px;
+      margin-left: 150px;
   }
   .title {
     color: var(--black);
@@ -249,6 +254,7 @@ div {
     letter-spacing: 6px;
     text-transform: uppercase;
   }
+
   .title h3 {
     font-size: 18px; 
     font-weight: 500; 
@@ -263,40 +269,6 @@ div {
       padding-left: 10px;
       padding-top: 20px;
   }
-  /* .pulse-parallax {
-    background-image: url('../images/pulse/banner-color.jpg');
-    background-color: #A96FDC;
-    min-height: 70vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .votesmart-parallax {
-    background-image: url('../images/votesmart/banner-color.jpg');
-    background-color: #7492c1;
-    min-height: 70vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .coupon-parallax {
-    background-image: url('../images/coupon-filter/banner-color.jpg');
-    background-color: #0468b4;
-    min-height: 70vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .list-parallax {
-    background-image: url('../images/shopping-list/banner-color.jpg');
-    background-color:#7694E5;
-    min-height: 70vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
 
 .pulse-main{
     font-family: 'Fira Sans', sans-serif;
@@ -323,9 +295,6 @@ div {
     margin: 10px;   
 }
 
-/* .discover{
-    padding-top: 245px;
-} */
 .timeline{
     grid-column: 2/span 1;
     margin: 10px;
@@ -523,6 +492,16 @@ a {
         margin-left: 15px;
 
     }
+    .page{
+        grid-template-column: 600px 1fr;
+    }
+    .profile> img{
+        width: 400px;
+    }
+    .text{
+        margin-left: 200px;
+        margin-top: 50px;
+    }
     .nav-bar .title{
         padding-right: 25px;
         padding-top: 20px;
@@ -536,19 +515,6 @@ a {
         justify-content: space-evenly;
 
     }
-    .parallax1 {
-        position: relative;
-        background-image: url('../images/profile.jpg');
-        background-color: #e9e9ea;
-        background-position: 60% 200px !important;
-        min-height: 70vh; 
-        position: relative;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
     .timeline{
         margin-left: 25px;
     }
@@ -639,8 +605,8 @@ a {
         transition: transform 1s;
     }
     
-    .parallax1 {
-        background-position: 70% 160px !important;
+    .page{
+        grid-template-column: 600px 1fr;
     }
     .pulse-parallax {
         position: relative;

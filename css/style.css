@@ -419,6 +419,13 @@ div {
     margin-bottom: 40px;    /* line-height:1.6em; */
 }
 
+.yugabyte-divider{
+    border-bottom: 3px solid #ff6e42;
+    width:120px;
+    margin-top: -10px;
+    margin-bottom: 40px;    /* line-height:1.6em; */
+}
+
 .back-info{
     line-height: 1.8;
     padding-left: 10px;
@@ -584,6 +591,9 @@ a {
 }
 
 @media screen and (min-width: 1024px){
+    img > image4{
+        max-height: 1500px;
+    }
     .nav-bar{
         flex-direction: row;
         justify-content: flex-end;
@@ -666,6 +676,19 @@ a {
         background-image: url('../images/vici/banner-color.jpg');
         background-color:#f5f0ec;
         background-position: 55% 70px !important;
+        min-height: 70vh; 
+        width: auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .yugabyte-parallax {
+        position: relative;
+        background-image: url('../images/yugabyte/banner-color.png');
+        background-color: #e8e9f3;
+        background-position: 80% 70px !important;
         min-height: 70vh; 
         width: auto;
         position: relative;

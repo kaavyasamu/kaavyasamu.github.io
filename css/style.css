@@ -421,11 +421,16 @@ div {
 
 .yugabyte-divider{
     border-bottom: 3px solid #ff6e42;
+    wi.dth:120px;
+    margin-top:Dog -10px;
+    margin-bottom: 40px;    /* line-height:1.6em; */
+}
+.watchdog-divider{
+    border-bottom: 3px solid #F7BA34;
     width:120px;
     margin-top: -10px;
     margin-bottom: 40px;    /* line-height:1.6em; */
 }
-
 .back-info{
     line-height: 1.8;
     padding-left: 10px;
@@ -688,6 +693,19 @@ a {
         position: relative;
         background-image: url('../images/yugabyte/banner-color.png');
         background-color: #e8e9f3;
+        background-position: 80% 70px !important;
+        min-height: 70vh; 
+        width: auto;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .watchdog-parallax {
+        position: relative;
+        background-image: url('../images/watchdog/banner-color.png');
+        background-color: #8ea18f;
         background-position: 80% 70px !important;
         min-height: 70vh; 
         width: auto;

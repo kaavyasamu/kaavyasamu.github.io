@@ -28,7 +28,7 @@ header img{
 }
 
 .nav-bar .current{
-    color: #c9634c;
+    color: #007965;
     text-transform: uppercase;
     font-weight: bolder;
 }
@@ -36,7 +36,7 @@ header img{
 .name{
     font-family: 'Fira Sans', sans-serif;
     padding-left: 25px;
-    color: #c9634c;
+    color: #007965;
     text-transform: lowercase;
 
 }
@@ -87,7 +87,7 @@ a.skip:focus, a.skip:active{
     font-size: 40px;
 }
 .emph{
-    color: #c9634c;
+    color: #007965;
 }
 #work .gradient{
     background: linear-gradient(260deg, rgba(201,99,76,1) 8%, rgba(226,150,133,1) 67%, rgba(187,93,72,1) 85%);
@@ -223,7 +223,7 @@ div {
       padding-top: 25px;
   }
   .contact-ad .email-ad{
-    color:#c9634c;
+    color:#007965;
     font-weight: bolder;
   }
   
@@ -492,7 +492,7 @@ a {
   }
   
   a:not(.name):hover {
-    border-bottom: 2px solid #c9634c;
+    border-bottom: 2px solid #007965;
     display: inline-block;
     line-height: 0.85;
   }
